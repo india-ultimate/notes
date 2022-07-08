@@ -1,4 +1,4 @@
-#+TITLE: India Ultimate Tech Projects
+#+TITLE: UltiArchive India
 #+STARTUP: indent
 #+REVEAL_THEME: simple
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
