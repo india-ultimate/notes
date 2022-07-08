@@ -1,0 +1,69 @@
+#+TITLE: India Ultimate Tech Projects
+#+STARTUP: indent
+#+REVEAL_THEME: simple
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+OPTIONS: toc:1 num:nil timestamp:nil author:nil
+
+* Motivation
+
+- [[https://docs.google.com/spreadsheets/d/e/2PACX-1vRrXcDJBgJ4F1nAvEfhL_2VX3BQpX-JWnqzXmP1ogoslTiOI8gbEI4DxVRFf8OT6xbgLgmFmOL-KiEL/pubhtml#][NCS 2022 Nationals]]
+- [[https://docs.google.com/spreadsheets/d/1hIOlqyW_7SkkwVLFsMyuk2anDHy6OmzkgurXNT-XCuc/edit#gid=1708819119][NCS 2022 South Regionals]]
+- [[https://docs.google.com/spreadsheets/d/1u4LBVWe7yXMMjZj8aRxA-9nZkemD74w4We_pfvRvzOk/edit#gid=1654898804][Fly Baba 2022]]
+- [[https://docs.google.com/spreadsheets/d/1plRnwLTvBzeMFKGMmgoEPy7eD3iN3jbkmoRYsKK2Xw4/edit#gid=896157281][NCUC 2022]]
+
+* What?
+* Who am I?
+- Ultimate Frisbee Player
+- Director of Technology (aka System Admin xD)
+- Free & Open Source Software Enthusiast
+- Google Summer of Code Mentor
+* Previous work
+** Spirit scoring sheet
+**** Problems
+- Too much time pressure
+- Human errors
+- Spirit Directors (SDs) miss games
+- SDs/TDs need not be Spreadsheet ninjas
+- Some help in identifying missing entries
+
+*** Demo
+#+ATTR_HTML: :width 400px
+[[https://user-images.githubusercontent.com/315678/38825245-7c9694f4-41c9-11e8-837c-c25ae7c307e0.gif]]
+- Tech Stack :: Python, Pandas, Google Sheets, Heroku
+- Code :: [[https://github.com/india-ultimate/sotg-calculator][github.com/india-ultimate/sotg-calculator]]
+
+*** Future work?
+- Integrate with tournament schedule
+- Keep track of different spreadsheets?
+- Clean-up app code and make more robust
+- Improve error messages
+
+** RSVP App
+More like a [[https://rsvp.tiks-ultimate.in/features][Team Management App]] ...
+
+WhatsApp is a blackhole. Period.
+
+*** Features
+#+ATTR_HTML: :width 600px
+[[./images/rsvp-screenshot.png]]
+- Tech Stack :: Python, Heroku, Google OAuth, JS, ...
+- Code :: [[https://github.com/thatte-idli-kaal-soup/rsvpapp/][github.com/thatte-idli-kaal-soup/rsvpapp]]
+*** Simpler RSVPs
+- Multiple call-ins without noise
+- Track attendance
+- WhatsApp group is still usable
+*** Player information management
+- Easy to get list of players, info, etc.
+- Create Splitwise groups, and manage payments
+*** Organize Team Media
+- Google Drive with shared photos
+- Automatically access control
+- Shared Google calendar
+*** Future work?
+- Restrict events to some users
+- Implement web-push notifications
+- Try for other teams?
+- Make deployment easier?
+- Provide as a service?
+- Allow anonymous call-ins
+- ...
