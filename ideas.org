@@ -2,21 +2,71 @@
 #+STARTUP: indent
 #+REVEAL_THEME: simple
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
-#+OPTIONS: toc:1 num:nil timestamp:nil author:nil
+#+OPTIONS: toc:1 num:nil timestamp:nil author:nil ^:{}
 
 * Motivation
 
-- [[https://docs.google.com/spreadsheets/d/e/2PACX-1vRrXcDJBgJ4F1nAvEfhL_2VX3BQpX-JWnqzXmP1ogoslTiOI8gbEI4DxVRFf8OT6xbgLgmFmOL-KiEL/pubhtml#][NCS 2022 Nationals]]
-- [[https://docs.google.com/spreadsheets/d/1hIOlqyW_7SkkwVLFsMyuk2anDHy6OmzkgurXNT-XCuc/edit#gid=1708819119][NCS 2022 South Regionals]]
-- [[https://docs.google.com/spreadsheets/d/1u4LBVWe7yXMMjZj8aRxA-9nZkemD74w4We_pfvRvzOk/edit#gid=1654898804][Fly Baba 2022]]
-- [[https://docs.google.com/spreadsheets/d/1plRnwLTvBzeMFKGMmgoEPy7eD3iN3jbkmoRYsKK2Xw4/edit#gid=896157281][NCUC 2022]]
+We're here to play Ultimate! Why should we care about a digital archive?
+
+Let's see if these questions interest you?
+
+** Data archive
+- How many of you are playing your first NCUC? Having fun?
+- Do you know how well or badly your college performed in the last edition?
+  - What was the team? Scores? Stats?
+- When was the first NCUC? Who participated?
+#+ATTR_HTML: :width 300px
+[[./images/ncuc-screenshot.png]]
+
+** Photo archive
+- Who is your favorite Ultimate player?
+- Have you seen any pictures of them in your first tournament?
+- Wouldn't that be nice to have?
+
+** Video archive
+- Has any of you watched any games live?
+- How many of these have been on Instagram live? Can you search back any of those?
+- Wouldn't it be nice to have an easier way to find them?!
 
 * What?
+- Build an archive --- Most of the content we consume today has been created in
+  the last 3 days!
+- Make it easily to search scores/stats/data
+- Start with parsing existing score and spirit sheets
+  - [[https://docs.google.com/spreadsheets/d/e/2PACX-1vRrXcDJBgJ4F1nAvEfhL_2VX3BQpX-JWnqzXmP1ogoslTiOI8gbEI4DxVRFf8OT6xbgLgmFmOL-KiEL/pubhtml#][NCS 2022 Nationals]]
+  - [[https://docs.google.com/spreadsheets/d/1hIOlqyW_7SkkwVLFsMyuk2anDHy6OmzkgurXNT-XCuc/edit#gid=1708819119][NCS 2022 South Regionals]]
+  - [[https://docs.google.com/spreadsheets/d/1u4LBVWe7yXMMjZj8aRxA-9nZkemD74w4We_pfvRvzOk/edit#gid=1654898804][Fly Baba 2022]]
+  - [[https://docs.google.com/spreadsheets/d/1plRnwLTvBzeMFKGMmgoEPy7eD3iN3jbkmoRYsKK2Xw4/edit#gid=896157281][NCUC 2022]]
+- Link it with photos, videos, etc.
+- May be even make a better system to collect scores/spirit scores...
+
+** Inspiration
+
+*** [[https://www.windmilltournament.com/legacy][Windmill scores page]]
+
+#+ATTR_HTML: :height 800px
+[[./images/windmill-scores-screenshot.png]]
+
+*** [[http://live.wcbu2017.org/team/mix/ind][WCBU 2017 scores page]]
+
+[[./images/wcbu-2017-screenshot.png]]
+
+
+*** [[https://www.ultiphotos.com/][Ultiphotos]]
+
+[[./images/ultiphotos-screenshot.png]]
+
+
 * Who am I?
 - Ultimate Frisbee Player
-- Director of Technology (aka System Admin xD)
 - Free & Open Source Software Enthusiast
 - Google Summer of Code Mentor
+- Director of Technology (aka System Admin xD)
+**** Contact
+- punchagan@muse-amuse.in
+- [[https://twitter.com/punchagan][@punchagan]] on Twitter
+- (or DM tiks_ultimate on Insta)
+
 * Previous work
 ** Spirit scoring sheet
 **** Problems
