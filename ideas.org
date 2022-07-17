@@ -6,27 +6,29 @@
 
 * Motivation
 
-We're here to play Ultimate! Why should we care about a digital archive?
+We're here to play Ultimate! Why should we care about a tech idea?
 
-Let's see if these questions interest you?
+Let's see!
 
-** Data archive
-- How many of you are playing your first NCUC? Having fun?
+** Data / Stats
+- How many of you played your first NCUC? Did you have fun?
 - Do you know how well or badly your college performed in the last edition?
-  - What was the team? Scores? Stats?
+- Do you have any way to compare this years' performance with previous ones?
 - When was the first NCUC? Who participated?
 #+ATTR_HTML: :width 300px
 [[./images/ncuc-screenshot.png]]
 
-** Photo archive
+** Photos
 - Who is your favorite Ultimate player?
-- Have you seen any pictures of them in your first tournament?
-- Wouldn't that be nice to have?
+  - Have you seen any pictures of them in your first tournament?
+  - Wouldn't that be nice to have?
+- Have you seen pictures of your college team's first NCUC?
 
-** Video archive
+** Videos
 - Has any of you watched any games live?
-- How many of these have been on Instagram live? Can you search back any of those?
-- Wouldn't it be nice to have an easier way to find them?!
+- How many of these have been on Instagram live?
+  - Have you been able to go back and watch any older games?
+  - Wouldn't it be nice to have an easier way to find them?!
 
 * What?
 - Build an archive --- Most of the content we consume today has been created in
@@ -51,7 +53,6 @@ Let's see if these questions interest you?
 *** [[https://www.ultiphotos.com/][Ultiphotos]]
 
 [[./images/ultiphotos-screenshot.png]]
-
 
 * Who am I?
 - Ultimate Frisbee Player
