@@ -2,69 +2,53 @@
 #+STARTUP: indent
 #+REVEAL_THEME: simple
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
-#+OPTIONS: toc:1 num:nil timestamp:nil author:nil ^:{}
+#+OPTIONS: toc:nil num:nil timestamp:nil author:nil ^:{}
 
-* Motivation
+* Who are you?
+- Punch, play Ultimate with TIKS in Bangalore
+- Love making useful tools to make life easier
+- Enjoy collaborating and mentoring
+- Help Indian Ultimate with tech stuff
 
-We're here to play Ultimate! Why should we care about a tech idea?
+* What do you want?
+- A digital archive for Ultimate in India
+- Stats and data
+  - photos and videos, may follow
+- Better system to collect scores/spirit scores?
+* Why do we need this?
+- Data is lost
+  - Ephemeral (lost in Social media, WhatsApp, ...)
+  - Most of the content we consume today has been created in the last 3 days!
+- Record the history and growth of the Sport in India
+  - Stories for future players
+  - Data for League auctions?
+  - Data for reasearch?
+* What do you have in mind?
 
-Let's see!
+We can do better than "lost" Spreadsheets
 
-** Data / Stats
-- How many of you played your first NCUC? Did you have fun?
-- Do you know how well or badly your college performed in the last edition?
-- Do you have any way to compare this years' performance with previous ones?
-- When was the first NCUC? Who participated?
-#+ATTR_HTML: :width 300px
-[[./images/ncuc-screenshot.png]]
+#+ATTR_HTML: :height 600px
+[[./images/ncuc-brackets.png]]
 
-** Photos
-- Who is your favorite Ultimate player?
-  - Have you seen any pictures of them in your first tournament?
-  - Wouldn't that be nice to have?
-- Have you seen pictures of your college team's first NCUC?
-
-** Videos
-- Has any of you watched any games live?
-- How many of these have been on Instagram live?
-  - Have you been able to go back and watch any older games?
-  - Wouldn't it be nice to have an easier way to find them?!
-
-* What?
-- Build an archive --- Most of the content we consume today has been created in
-  the last 3 days!
-- Make it easily to search scores/stats/data
-- Start with parsing existing score and spirit sheets
-  - [[https://docs.google.com/spreadsheets/d/e/2PACX-1vRrXcDJBgJ4F1nAvEfhL_2VX3BQpX-JWnqzXmP1ogoslTiOI8gbEI4DxVRFf8OT6xbgLgmFmOL-KiEL/pubhtml#][NCS 2022 Nationals]], [[https://docs.google.com/spreadsheets/d/1hIOlqyW_7SkkwVLFsMyuk2anDHy6OmzkgurXNT-XCuc/edit#gid=1708819119][NCS 2022 South Regionals]], [[https://docs.google.com/spreadsheets/d/1u4LBVWe7yXMMjZj8aRxA-9nZkemD74w4We_pfvRvzOk/edit#gid=1654898804][Fly Baba 2022]], [[https://docs.google.com/spreadsheets/d/1plRnwLTvBzeMFKGMmgoEPy7eD3iN3jbkmoRYsKK2Xw4/edit#gid=896157281][NCUC 2022]]
-- Link it with photos, videos, etc.
-- May be even make a better system to collect scores/spirit scores.
-- Potentially useful for research on the sport, auctions data, etc.
-
-** Inspiration
-*** [[https://www.windmilltournament.com/legacy][Windmill scores page]]
-
+** [[https://www.windmilltournament.com/legacy][Windmill scores page]]
 #+ATTR_HTML: :height 800px
 [[./images/windmill-scores-screenshot.png]]
-
-*** [[http://live.wcbu2017.org/team/mix/ind][WCBU 2017 scores page]]
-
+** [[http://live.wcbu2017.org/team/mix/ind][WCBU 2017 scores page]]
 [[./images/wcbu-2017-screenshot.png]]
-
-*** [[https://www.ultiphotos.com/][Ultiphotos]]
-
+** [[https://www.ultiphotos.com/][Ultiphotos]]
 [[./images/ultiphotos-screenshot.png]]
+* How long will it take?
+- Work on it for 2-3 months and see how far we get
+- Handful of people to working 5 hours a week
+* Do I need to be able to code?
+- Brainstorming ideas
+- Design
+- Data collection and cleaning
+- Code
+- User testing and feedback
+* Can you show us proof?
+A couple of tools that people have found useful
 
-* Who am I?
-- Ultimate Frisbee Player
-- Free & Open Source Software Enthusiast
-- Google Summer of Code Mentor
-- Director of Technology (aka System Admin xD)
-**** Contact
-- punchagan@muse-amuse.in
-- [[https://twitter.com/punchagan][@punchagan]] on Twitter
-- (or DM tiks_ultimate on Insta)
-
-* Previous work
 ** Spirit scoring sheet
 **** Problems
 - Too much time pressure
@@ -79,12 +63,6 @@ Let's see!
 - Tech Stack :: Python, Pandas, Google Sheets, Heroku
 - Code :: [[https://github.com/india-ultimate/sotg-calculator][github.com/india-ultimate/sotg-calculator]]
 
-*** Future work?
-- Integrate with tournament schedule
-- Keep track of different spreadsheets?
-- Clean-up app code and make more robust
-- Improve error messages
-
 ** RSVP App
 More like a [[https://rsvp.tiks-ultimate.in/features][Team Management App]] ...
 
@@ -95,22 +73,8 @@ WhatsApp is a blackhole. Period.
 [[./images/rsvp-screenshot.png]]
 - Tech Stack :: Python, Heroku, Google OAuth, JS, ...
 - Code :: [[https://github.com/thatte-idli-kaal-soup/rsvpapp/][github.com/thatte-idli-kaal-soup/rsvpapp]]
-*** Simpler RSVPs
-- Multiple call-ins without noise
-- Track attendance
-- WhatsApp group is still usable
-*** Player information management
-- Easy to get list of players, info, etc.
-- Create Splitwise groups, and manage payments
-*** Organize Team Media
-- Google Drive with shared photos
-- Automatically access control
-- Shared Google calendar
-*** Future work?
-- Restrict events to some users
-- Implement web-push notifications
-- Try for other teams?
-- Make deployment easier?
-- Provide as a service?
-- Allow anonymous call-ins
-- ...
+
+* How do I sign up?
+
+- Sign up on [[https://forms.gle/yw5i27fuK4o8hr9E7][this form]].
+- @punchagan on Twitter/GitHub/GMail
